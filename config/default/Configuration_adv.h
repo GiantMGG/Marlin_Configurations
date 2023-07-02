@@ -21,6 +21,8 @@
  */
 #pragma once
 
+#define CONFIG_EXAMPLES_DIR "config/default"
+
 /**
  * Configuration_adv.h
  *
@@ -30,7 +32,7 @@
  *
  * Basic settings can be found in Configuration.h
  */
-#define CONFIGURATION_ADV_H_VERSION 02010200
+#define CONFIGURATION_ADV_H_VERSION 02010201
 
 // @section develop
 
