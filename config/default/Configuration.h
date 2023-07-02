@@ -1485,7 +1485,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -50, -10, -2.35 }
+#define NOZZLE_TO_PROBE_OFFSET { -50, -10, -1.96 } //Z offset mit M401 bestimmt
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
