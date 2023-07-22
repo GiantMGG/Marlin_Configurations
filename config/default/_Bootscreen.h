@@ -33,7 +33,7 @@
  * This bitmap from the file 'Bild2A.jpg'
  */
 #pragma once
-#define CUSTOM_BOOTSCREEN_TIMEOUT 1000
+#define CUSTOM_BOOTSCREEN_TIMEOUT 4000
 #define CUSTOM_BOOTSCREEN_BMPWIDTH  128
 
 

@@ -1987,10 +1987,9 @@
 
   //#define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
 
-  #define MESH_INSET 1              // Set Mesh bounds as an inset region of the bed --> Default war auf 1, vielleicht bekomme ich mit 0 Probleme
+  #define MESH_INSET 10              // Set Mesh bounds as an inset region of the bed --> Default war auf 1, vielleicht bekomme ich mit 0 Probleme
   #define GRID_MAX_POINTS_X 10      // Don't use more than 15 points per axis, implementation limited.
-  #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
-
+  #define GRID_MAX_POINTS_Y 10
   //#define UBL_HILBERT_CURVE       // Use Hilbert distribution for less travel when probing multiple points
 
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
